@@ -1,0 +1,9 @@
+Pipeline {
+agent any
+ stages{
+   stage(get code){
+       git clone https://github.com/Mahesh4b2/webapp.git    
+           }
+      }
+
+}
